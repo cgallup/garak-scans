@@ -20,6 +20,15 @@ Scans of a locally hosted **Hermes** model (`openai.OpenAICompatible` target at
 | [`garak-full-scan`](hermes/garak-full-scan/) | 2026-08-26 | `dan.Ablation_Dan_11_0`, `dan.AutoDANCached`, `dan.DanInTheWild` | `*.report.html`, `*.report.jsonl`, `*.hitlog.jsonl` |
 | [`garak-lite-scan`](hermes/garak-lite-scan/) | 2026-08-25 | `dan.Dan_11_0` | `*.report.html`, `*.report.jsonl`, plus a saved HTML view |
 
+### Readable reports
+
+GitHub shows `.html` files as source, so use these rendered views:
+
+- **full scan** — [rendered report](https://htmlpreview.github.io/?https://github.com/cgallup/garak-scans/blob/main/hermes/garak-full-scan/garak.cb6be800-bca7-419c-a3fb-7fcedde07041.report.html) · [source / download](hermes/garak-full-scan/garak.cb6be800-bca7-419c-a3fb-7fcedde07041.report.html)
+- **lite scan** — [rendered report](https://htmlpreview.github.io/?https://github.com/cgallup/garak-scans/blob/main/hermes/garak-lite-scan/garak.8bcd484f-1fe8-4dbd-b4b9-79c5614c9a6a.report.html) · [source / download](hermes/garak-lite-scan/garak.8bcd484f-1fe8-4dbd-b4b9-79c5614c9a6a.report.html)
+
+Or download a `.report.html` file and open it in a browser.
+
 #### File types
 
 - **`*.report.html`** — human-readable scan report. Open in a browser.
