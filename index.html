@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>garak-scans</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+         max-width: 40rem; margin: 3rem auto; padding: 0 1.25rem; }
+  h1 { font-size: 1.5rem; }
+  ul { padding-left: 1.2rem; }
+  li { margin: .4rem 0; }
+  code { font-size: .9em; }
+  .meta { opacity: .7; font-size: .9em; }
+</style>
+</head>
+<body>
+<h1>garak-scans</h1>
+<p><a href="https://garak.ai">garak</a> LLM vulnerability scan results &mdash;
+companion reference for the book <em>AI-WAS</em>.
+See the <a href="https://github.com/cgallup/garak-scans">repository</a> for the
+raw <code>.jsonl</code> run logs and hit logs.</p>
+
+<h2>Hermes</h2>
+<p class="meta">Target: <code>openai.OpenAICompatible</code> at
+<code>http://localhost:8000/v1/</code> &middot; garak v0.16.0</p>
+<ul>
+  <li><a href="hermes/garak-full-scan/garak.cb6be800-bca7-419c-a3fb-7fcedde07041.report.html">Full scan report</a>
+      <span class="meta">&mdash; 2026-08-26 &middot; dan.Ablation_Dan_11_0, dan.AutoDANCached, dan.DanInTheWild</span></li>
+  <li><a href="hermes/garak-lite-scan/garak.8bcd484f-1fe8-4dbd-b4b9-79c5614c9a6a.report.html">Lite scan report</a>
+      <span class="meta">&mdash; 2026-08-25 &middot; dan.Dan_11_0</span></li>
+</ul>
+</body>
+</html>

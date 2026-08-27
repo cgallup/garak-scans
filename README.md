@@ -22,12 +22,14 @@ Scans of a locally hosted **Hermes** model (`openai.OpenAICompatible` target at
 
 ### Readable reports
 
-GitHub shows `.html` files as source, so use these rendered views:
+GitHub shows `.html` files as source. The reports are served rendered via GitHub Pages:
 
-- **full scan** — [rendered report](https://htmlpreview.github.io/?https://github.com/cgallup/garak-scans/blob/main/hermes/garak-full-scan/garak.cb6be800-bca7-419c-a3fb-7fcedde07041.report.html) · [source / download](hermes/garak-full-scan/garak.cb6be800-bca7-419c-a3fb-7fcedde07041.report.html)
-- **lite scan** — [rendered report](https://htmlpreview.github.io/?https://github.com/cgallup/garak-scans/blob/main/hermes/garak-lite-scan/garak.8bcd484f-1fe8-4dbd-b4b9-79c5614c9a6a.report.html) · [source / download](hermes/garak-lite-scan/garak.8bcd484f-1fe8-4dbd-b4b9-79c5614c9a6a.report.html)
+**<https://cgallup.github.io/garak-scans/>**
 
-Or download a `.report.html` file and open it in a browser.
+- **full scan** — <https://cgallup.github.io/garak-scans/hermes/garak-full-scan/garak.cb6be800-bca7-419c-a3fb-7fcedde07041.report.html>
+- **lite scan** — <https://cgallup.github.io/garak-scans/hermes/garak-lite-scan/garak.8bcd484f-1fe8-4dbd-b4b9-79c5614c9a6a.report.html>
+
+Or download a `.report.html` file from the repo and open it in a browser.
 
 #### File types
 
