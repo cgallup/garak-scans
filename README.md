@@ -42,8 +42,10 @@ GitHub shows `.html` files as source. The reports are served rendered via GitHub
 
 **<https://cgallup.github.io/garak-scans/>**
 
-- **full scan** — <https://cgallup.github.io/garak-scans/hermes/garak-full-scan/garak.cb6be800-bca7-419c-a3fb-7fcedde07041.report.html>
-- **lite scan** — <https://cgallup.github.io/garak-scans/hermes/garak-lite-scan/garak.8bcd484f-1fe8-4dbd-b4b9-79c5614c9a6a.report.html>
+**Hermes** (`dan` jailbreak probes, 2026-08-25 and 2026-08-26):
+
+- **full scan** (2026-08-26: `dan.Ablation_Dan_11_0`, `dan.AutoDANCached`, `dan.DanInTheWild`) — <https://cgallup.github.io/garak-scans/hermes/garak-full-scan/garak.cb6be800-bca7-419c-a3fb-7fcedde07041.report.html>
+- **lite scan** (2026-08-25: `dan.Dan_11_0`) — <https://cgallup.github.io/garak-scans/hermes/garak-lite-scan/garak.8bcd484f-1fe8-4dbd-b4b9-79c5614c9a6a.report.html>
 
 **Nemotron** (`promptinject` baseline, 2026-10-12):
 
