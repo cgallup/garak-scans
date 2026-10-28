@@ -10,6 +10,22 @@ a **fail** means the probe succeeded against the model.
 
 ## Contents
 
+### `nemotron/`
+
+Scan of a locally hosted **Nemotron-Nano-4B (4-bit)** model served through an
+OpenAI-compatible endpoint (`openai.OpenAICompatible` at `http://localhost:8080/v1/`),
+garak `v0.16.0`, 1 generation per prompt.
+
+| Scan | Date | Probes | Coverage | Hit rate |
+|------|------|--------|----------|----------|
+| [`promptinject-baseline`](nemotron/promptinject-baseline/) | 2026-10-12 | `promptinject.HijackHateHumans`, `HijackKillHumans`, `HijackLongPrompt` | 754 / 768 prompts scored (98%) | 385 / 754 hits (51%) &mdash; 70% / 43% / 40% per probe |
+
+Per-probe `*.report.html`, `*.report.jsonl`, `*.hitlog.jsonl`, plus `summary.txt` and
+`hits_triaged.csv` (every hit with prompt, output and verdict). This scan covers one
+probe family (`promptinject`) only; it is a baseline, not a full-battery scan. An earlier
+2026-10-11 attempt is not published: the model returned empty responses, giving only
+3&ndash;5% coverage.
+
 ### `hermes/`
 
 Scans of a locally hosted **Hermes** model (`openai.OpenAICompatible` target at
@@ -22,7 +38,8 @@ Scans of a locally hosted **Hermes** model (`openai.OpenAICompatible` target at
 
 ### Readable reports
 
-GitHub shows `.html` files as source. The reports are served rendered via GitHub Pages:
+GitHub shows `.html` files as source. The reports are served rendered via GitHub Pages (Nemotron reports are under
+`nemotron/promptinject-baseline/`, linked from the index):
 
 **<https://cgallup.github.io/garak-scans/>**
 
