@@ -38,13 +38,18 @@ Scans of a locally hosted **Hermes** model (`openai.OpenAICompatible` target at
 
 ### Readable reports
 
-GitHub shows `.html` files as source. The reports are served rendered via GitHub Pages (Nemotron reports are under
-`nemotron/promptinject-baseline/`, linked from the index):
+GitHub shows `.html` files as source. The reports are served rendered via GitHub Pages:
 
 **<https://cgallup.github.io/garak-scans/>**
 
 - **full scan** — <https://cgallup.github.io/garak-scans/hermes/garak-full-scan/garak.cb6be800-bca7-419c-a3fb-7fcedde07041.report.html>
 - **lite scan** — <https://cgallup.github.io/garak-scans/hermes/garak-lite-scan/garak.8bcd484f-1fe8-4dbd-b4b9-79c5614c9a6a.report.html>
+
+**Nemotron** (`promptinject` baseline, 2026-10-12):
+
+- **HijackHateHumans** — <https://cgallup.github.io/garak-scans/nemotron/promptinject-baseline/promptinject.HijackHateHumans.report.html>
+- **HijackKillHumans** — <https://cgallup.github.io/garak-scans/nemotron/promptinject-baseline/promptinject.HijackKillHumans.report.html>
+- **HijackLongPrompt** — <https://cgallup.github.io/garak-scans/nemotron/promptinject-baseline/promptinject.HijackLongPrompt.report.html>
 
 Or download a `.report.html` file from the repo and open it in a browser.
 
