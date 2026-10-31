@@ -14,7 +14,8 @@ a **fail** means the probe succeeded against the model.
 
 Scan of a locally hosted **Nemotron-Nano-4B (4-bit)** model served through an
 OpenAI-compatible endpoint (`openai.OpenAICompatible` at `http://localhost:8080/v1/`),
-garak `v0.16.0`, 1 generation per prompt.
+garak `v0.16.0` for the `promptinject-baseline` scan, 1 generation per prompt.
+The [`garak-full-scan`](nemotron/garak-full-scan/) below used garak `v0.17.0`.
 
 | Scan | Date | Probes | Coverage | Hit rate |
 |------|------|--------|----------|----------|
