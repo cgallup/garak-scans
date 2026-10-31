@@ -1,0 +1,370 @@
+{
+  "files": [
+    {
+      "file": "promptinject.HijackHateHumans.report.jsonl",
+      "source_folder": "20261012",
+      "role": "published",
+      "sha256": "56e5dacfdfce61ef3283276082414553bb9dad200a477a4b6c70f22a31788bcd",
+      "complete": true,
+      "garak_version": "0.17.0",
+      "started": "2026-10-12T08:03:20.574348",
+      "attempts": 256
+    },
+    {
+      "file": "promptinject.HijackHateHumans.hitlog.jsonl",
+      "source_folder": "20261012",
+      "role": "published",
+      "sha256": "6c81f301a4a09417350add9297cd09f6a29df98041811caa4b743a52e6610353"
+    },
+    {
+      "file": "promptinject.HijackKillHumans.report.jsonl",
+      "source_folder": "20261012",
+      "role": "published",
+      "sha256": "8220f33cfebcdcaadb94705a94012a5d7a2e00906b73775481df4c7bb8f8381f",
+      "complete": true,
+      "garak_version": "0.17.0",
+      "started": "2026-10-12T10:20:49.598834",
+      "attempts": 256
+    },
+    {
+      "file": "promptinject.HijackKillHumans.hitlog.jsonl",
+      "source_folder": "20261012",
+      "role": "published",
+      "sha256": "fdb945099813f724f8874e5588b2bd27e005bb3450927eb6ff6b025cf3abed71"
+    },
+    {
+      "file": "promptinject.HijackLongPrompt.report.jsonl",
+      "source_folder": "20261012",
+      "role": "published",
+      "sha256": "388e594281e9f0fafd0add87f1089c1aeb0fff0b894f273a857a0cf12c54e7da",
+      "complete": true,
+      "garak_version": "0.17.0",
+      "started": "2026-10-12T11:31:27.272414",
+      "attempts": 256
+    },
+    {
+      "file": "promptinject.HijackLongPrompt.hitlog.jsonl",
+      "source_folder": "20261012",
+      "role": "published",
+      "sha256": "bdd3f9fd7e4a9acb7278e4564bcaa6b2418a946995b03f39fc93c55e8c76084c"
+    },
+    {
+      "file": "sysprompt_extraction.report.jsonl",
+      "source_folder": "20261028-tier2",
+      "role": "published",
+      "sha256": "aaf247d0c94e75be1e89e6afb9f8ad655646b2250ffc25752c27c56dc37eaebf",
+      "complete": true,
+      "garak_version": "0.17.0",
+      "started": "2026-10-28T12:07:04.704920",
+      "attempts": 256
+    },
+    {
+      "file": "sysprompt_extraction.hitlog.jsonl",
+      "source_folder": "20261028-tier2",
+      "role": "published",
+      "sha256": "b789cf1c216fa182e6500651af581ed30c8b79b17bff90460ef538f412b97c79"
+    },
+    {
+      "file": "apikey.report.jsonl",
+      "source_folder": "20261028-tier2",
+      "role": "published",
+      "sha256": "4c02dde59924b79589eedabf7ff9667470be8eabf5c6ef10fdbf46d3f529febe",
+      "complete": true,
+      "garak_version": "0.17.0",
+      "started": "2026-10-28T14:04:52.912224",
+      "attempts": 314
+    },
+    {
+      "file": "apikey.hitlog.jsonl",
+      "source_folder": "20261028-tier2",
+      "role": "published",
+      "sha256": "dbb58732b60abed89182d6ed22aa7794ce84a0ad266bdaa49d95d732dc954740"
+    },
+    {
+      "file": "goodside.report.jsonl",
+      "source_folder": "20261028-tier2",
+      "role": "published",
+      "sha256": "9153fd1e8c56d8393513fedaf8e7d81ef892601ff411c7bbfb014277c99f0fe8",
+      "complete": true,
+      "garak_version": "0.17.0",
+      "started": "2026-10-28T15:50:44.260695",
+      "attempts": 39
+    },
+    {
+      "file": "goodside.hitlog.jsonl",
+      "source_folder": "20261028-tier2",
+      "role": "published",
+      "sha256": "9b3cea01599ce26afacfc3956e8c342636385133981e386368534c74dbc6470b"
+    },
+    {
+      "file": "grandma.report.jsonl",
+      "source_folder": "20261028-tier2",
+      "role": "published",
+      "sha256": "f51580849de2e657e60d2d0d6c5ea4d6afbb57aea0f44266508db6d4f01b83c8",
+      "complete": true,
+      "garak_version": "0.17.0",
+      "started": "2026-10-28T16:23:33.267316",
+      "attempts": 34
+    },
+    {
+      "file": "grandma.hitlog.jsonl",
+      "source_folder": "20261028-tier2",
+      "role": "published",
+      "sha256": "dd2d57cb602ec154a2d8a90ead1acdec1660b6cc7539a9ddd0464e2f5a7941f2"
+    },
+    {
+      "file": "misleading.report.jsonl",
+      "source_folder": "20261028-tier2",
+      "role": "published",
+      "sha256": "718587b1b2fb3aba58c715ddebe6d44cda8d4b20e6ce7d6b09ed1f666d3b7be5",
+      "complete": true,
+      "garak_version": "0.17.0",
+      "started": "2026-10-28T16:36:24.171480",
+      "attempts": 150
+    },
+    {
+      "file": "misleading.hitlog.jsonl",
+      "source_folder": "20261028-tier2",
+      "role": "published",
+      "sha256": "c4c2fbe7f0b95e29c222eef0cde8a3c8a9c7bfe3f7046301c8453f8a3d27dcd3"
+    },
+    {
+      "file": "phrasing.report.jsonl",
+      "source_folder": "20261028-tier2",
+      "role": "published",
+      "sha256": "62de86278c0b21a803a5c06f75d6bbaba12e6919aededc6d94625b7dcd366949",
+      "complete": true,
+      "garak_version": "0.17.0",
+      "started": "2026-10-28T18:01:25.653410",
+      "attempts": 512
+    },
+    {
+      "file": "phrasing.hitlog.jsonl",
+      "source_folder": "20261028-tier2",
+      "role": "published",
+      "sha256": "cf0ab4f2bc3b1da7f016355a5e7613659165a868263b4743cccc6560ed74d1fd"
+    },
+    {
+      "file": "dan.DanInTheWild.report.jsonl",
+      "source_folder": "20261029-dan",
+      "role": "published",
+      "sha256": "5e29bf8f73a8354f12b521f43b53bb45f3bf68fdeab3920dc78a65bcf0cede2d",
+      "complete": true,
+      "garak_version": "0.17.0",
+      "started": "2026-10-29T17:52:43.739503",
+      "attempts": 256
+    },
+    {
+      "file": "dan.DanInTheWild.hitlog.jsonl",
+      "source_folder": "20261029-dan",
+      "role": "published",
+      "sha256": "12431e071d8dc4b3ff9fa56f7c999c60feb173f4aac8af75fc5d9cb766059b8a"
+    },
+    {
+      "file": "dan_partial_ablation_autodan.report.jsonl",
+      "source_folder": "20261029-dan",
+      "role": "published",
+      "sha256": "ac8e5374ed75d4ead4315470e4b10027d9ea6b3c3c4373a8db02d363b2a8233f",
+      "complete": false,
+      "garak_version": "0.17.0",
+      "started": "2026-10-29T14:54:18.569681",
+      "attempts": 130
+    },
+    {
+      "file": "dan_partial_ablation_autodan.hitlog.jsonl",
+      "source_folder": "20261029-dan",
+      "role": "published",
+      "sha256": "1903e77ea1de1185e859ae703dadc8d2d3a29ee4306bfdf33114e9620851c447"
+    },
+    {
+      "file": "ansiescape.report.jsonl",
+      "source_folder": "20261029-remaining",
+      "role": "published",
+      "sha256": "4036c8aa59d199cf0e6c8fccc4f024ef662942a57fa7728c1e47be6bba8cbdd0",
+      "complete": true,
+      "garak_version": "0.17.0",
+      "started": "2026-10-30T16:04:02.070673",
+      "attempts": 109
+    },
+    {
+      "file": "ansiescape.hitlog.jsonl",
+      "source_folder": "20261029-remaining",
+      "role": "published",
+      "sha256": "5399ed932dcd3cbac270a5c0f0ce266a4ec3b971e8bc3815de41526da506dfff"
+    },
+    {
+      "file": "badchars.report.jsonl",
+      "source_folder": "20261029-remaining",
+      "role": "published",
+      "sha256": "060a5ee7e4e71ed193866d14329318022bc40f8563291d41c1b1eca1c64866a8",
+      "complete": true,
+      "garak_version": "0.17.0",
+      "started": "2026-10-30T19:43:14.162780",
+      "attempts": 256
+    },
+    {
+      "file": "badchars.hitlog.jsonl",
+      "source_folder": "20261029-remaining",
+      "role": "published",
+      "sha256": "49f540a75e04deb2f2205f959fb384ab305853bec2130dbca5f8e87fde22e2f9"
+    },
+    {
+      "file": "continuation.report.jsonl",
+      "source_folder": "20261029-remaining",
+      "role": "published",
+      "sha256": "8ee044ea0cd77a6276a72900195bc8ea5f3dc5d8a5d1727af5ce21b944b10568",
+      "complete": true,
+      "garak_version": "0.17.0",
+      "started": "2026-10-30T21:01:56.304334",
+      "attempts": 256
+    },
+    {
+      "file": "divergence.report.jsonl",
+      "source_folder": "20261029-remaining",
+      "role": "published",
+      "sha256": "a46e99582cf52910ff3ffe83754cdfef83f97227092c6a3fb5cb144631db0f51",
+      "complete": false,
+      "garak_version": "0.17.0",
+      "started": "2026-10-30T22:43:51.818218",
+      "attempts": 36
+    },
+    {
+      "file": "divergence.hitlog.jsonl",
+      "source_folder": "20261029-remaining",
+      "role": "published",
+      "sha256": "5df1ac52493bb837350383e5bab5fb5c500367414100c941cd05cd1a443c2942"
+    },
+    {
+      "file": "exploitation.report.jsonl",
+      "source_folder": "20261029-remaining",
+      "role": "published",
+      "sha256": "ba9b4225063bafa397a0227f7b7cd58eea6011f2f68bddc4544a1595f93d4b30",
+      "complete": true,
+      "garak_version": "0.17.0",
+      "started": "2026-10-30T15:18:34.514429",
+      "attempts": 19
+    },
+    {
+      "file": "exploitation.hitlog.jsonl",
+      "source_folder": "20261029-remaining",
+      "role": "published",
+      "sha256": "a49b2f1dcee1ef1898742d76b3b46b2d5fcd4537d543d7dcb0b74bac15d73511"
+    },
+    {
+      "file": "leakreplay.report.jsonl",
+      "source_folder": "20261029-remaining",
+      "role": "published",
+      "sha256": "b6ba92ed0a135c148d496808fbaa2728f3335ef7b629710b6d09a93d41f9a4f8",
+      "complete": true,
+      "garak_version": "0.17.0",
+      "started": "2026-10-30T23:21:30.054298",
+      "attempts": 652
+    },
+    {
+      "file": "leakreplay.hitlog.jsonl",
+      "source_folder": "20261029-remaining",
+      "role": "published",
+      "sha256": "955b460c9037ed91fb539212e7483ac047ad409a4a598d030e539269763e7121"
+    },
+    {
+      "file": "lmrc.report.jsonl",
+      "source_folder": "20261029-remaining",
+      "role": "published",
+      "sha256": "554429b2941a647e98dcaecece9063c2973c9e4a32fee4cd4b195e14acd482f4",
+      "complete": true,
+      "garak_version": "0.17.0",
+      "started": "2026-10-30T15:26:24.058823",
+      "attempts": 19
+    },
+    {
+      "file": "lmrc.hitlog.jsonl",
+      "source_folder": "20261029-remaining",
+      "role": "published",
+      "sha256": "3825e7b88f9d452c4259b1d082fb15888064bcb921ab94702331f25d7ea9f947"
+    },
+    {
+      "file": "realtoxicityprompts.report.jsonl",
+      "source_folder": "20261029-remaining",
+      "role": "published",
+      "sha256": "ae9ff1b7c4504cebd300aecfb02063f5efb833c444936b1f9c78e8991760f1c4",
+      "complete": true,
+      "garak_version": "0.17.0",
+      "started": "2026-10-29T20:51:18.314338",
+      "attempts": 5
+    },
+    {
+      "file": "sata.report.jsonl",
+      "source_folder": "20261029-remaining",
+      "role": "published",
+      "sha256": "68eda9eb94ad5e32e1ac7e932c9930bb115a30526749755ad8e3e8cef9ed0178",
+      "complete": true,
+      "garak_version": "0.17.0",
+      "started": "2026-10-29T20:53:17.897607",
+      "attempts": 17
+    },
+    {
+      "file": "sata.hitlog.jsonl",
+      "source_folder": "20261029-remaining",
+      "role": "published",
+      "sha256": "f05779e913f9f2fdb3cfd8ced8ca16b6fbbf222bc6f3643bf655bf3d9d2b95c1"
+    },
+    {
+      "file": "snowball.report.jsonl",
+      "source_folder": "20261029-remaining",
+      "role": "published",
+      "sha256": "7f575c5ce91d65fd74060fe71c97b7ca38deed1e12a972e4b83a090616f40dad",
+      "complete": true,
+      "garak_version": "0.17.0",
+      "started": "2026-10-30T15:41:51.469945",
+      "attempts": 100
+    },
+    {
+      "file": "suffix.report.jsonl",
+      "source_folder": "20261029-remaining",
+      "role": "published",
+      "sha256": "4c3e2637cf2f9befb52940ac5de17f09c28c6696f68d24faeb99dfdac8f0c0fa",
+      "complete": true,
+      "garak_version": "0.17.0",
+      "started": "2026-10-30T15:34:57.837194",
+      "attempts": 26
+    },
+    {
+      "file": "malwaregen.report.jsonl",
+      "source_folder": "20261031-malwaregen-rerun",
+      "role": "published",
+      "sha256": "81c5ab205f8b6d462f8d2f37fbf532d0f0a585308ab65c67c901c67852ac2950",
+      "complete": true,
+      "garak_version": "0.17.0",
+      "started": "2026-10-31T08:18:31.322592",
+      "attempts": 240
+    },
+    {
+      "file": "malwaregen.hitlog.jsonl",
+      "source_folder": "20261031-malwaregen-rerun",
+      "role": "published",
+      "sha256": "c82d680dc1259ca9aa47935b4681f96e7076d4f6eddd311d898409ef4457288d"
+    },
+    {
+      "file": "extra/malwaregen_run1/malwaregen.report.jsonl",
+      "source_folder": "20261029-remaining",
+      "role": "extra (first run, not in summary)",
+      "sha256": "8b116c98b0349dc6409b924120394170d664d4fdce6ebdff6a862fb44e0ad081",
+      "complete": true,
+      "garak_version": "0.17.0",
+      "started": "2026-10-30T16:33:56.631442",
+      "attempts": 240
+    },
+    {
+      "file": "extra/malwaregen_run1/malwaregen.hitlog.jsonl",
+      "source_folder": "20261029-remaining",
+      "role": "extra (first run, not in summary)",
+      "sha256": "feb6f55dffa25045159ef8f1cb5c63626f2782cca2d532988d9b07735566937c"
+    }
+  ],
+  "excluded": {
+    "20261011/*": "early PromptInject run, 0-5% coverage (generator settings not yet fixed)",
+    "20261028-tier2/dan": "73% / 24% coverage; superseded by 20261029-dan",
+    "20261028-tier2/{exploitation,lmrc,malwaregen,snowball,realtoxicityprompts,continuation,divergence,leakreplay,ansiescape,badchars,suffix,sata}": "0% coverage, the model server crashed on 2026-10-28 ~21:00; superseded by 20261029-remaining",
+    "20261029-dan.final-backup, 20261029-dan-test, test_goodside*": "scratch and backup copies"
+  }
+}
