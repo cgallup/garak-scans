@@ -1,7 +1,12 @@
 # garak-scans
 
-[garak](https://garak.ai) LLM vulnerability scan results, published as a companion
-reference for the book *AI-WAS*.
+[garak](https://garak.ai) LLM vulnerability scan results, companion reference for the book
+[*NemoClaw Sandboxing Instructions: A Cross-Platform Guide to Secure AI Agent Testing on macOS, Linux, and Windows*](https://a.co/d/0bNJP0tz)
+by Chris Gallup (Author). See the [repository](https://github.com/cgallup/garak-scans) for the raw `.jsonl` run logs and hit logs.
+
+<a href="https://a.co/d/0bNJP0tz"><img src="assets/nemoclaw-sandboxing-cover.png" alt="Book cover: NemoClaw Sandboxing Instructions, Second Edition, by Chris Gallup" width="220"></a>
+
+ASIN: B0HJZCBH5J · ISBN-13: 979-8174524026
 
 garak is an open-source LLM red-teaming / vulnerability scanner from NVIDIA. Each
 scan probes a target model with a battery of adversarial prompts and evaluates the
