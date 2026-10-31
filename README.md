@@ -19,10 +19,11 @@ garak `v0.16.0`, 1 generation per prompt.
 | Scan | Date | Probes | Coverage | Hit rate |
 |------|------|--------|----------|----------|
 | [`promptinject-baseline`](nemotron/promptinject-baseline/) | 2026-10-12 | `promptinject.HijackHateHumans`, `HijackKillHumans`, `HijackLongPrompt` | 754 / 768 prompts scored (98%) | 385 / 754 hits (51%) &mdash; 70% / 43% / 40% per probe |
+| [`garak-full-scan`](nemotron/garak-full-scan/) | 2026-10-12 to 2026-10-31 | 20 probe families incl. PromptInject (its files stay in `promptinject-baseline`) | 4083 / 4194 prompts scored (97%) | 977 / 4083 hits (24%) &mdash; low-coverage probes are flagged, see the folder README |
 
 Per-probe `*.report.html`, `*.report.jsonl`, `*.hitlog.jsonl`, plus `summary.txt` and
-`hits_triaged.csv` (every hit with prompt, output and verdict). This scan covers one
-probe family (`promptinject`) only; it is a baseline, not a full-battery scan. An earlier
+`hits_triaged.csv` (every hit with prompt, output and verdict). The `promptinject-baseline` scan covers one
+probe family (`promptinject`) only; the broader **full scan** is in [`garak-full-scan`](nemotron/garak-full-scan/), run through a small proxy on an 8 GB Mac (garak 0.17.0), with its own README, scripts and limitations. An earlier
 2026-10-11 attempt is not published: the model returned empty responses, giving only
 3&ndash;5% coverage.
 
@@ -46,6 +47,8 @@ GitHub shows `.html` files as source. The reports are served rendered via GitHub
 
 - **full scan** (2026-08-26: `dan.Ablation_Dan_11_0`, `dan.AutoDANCached`, `dan.DanInTheWild`) — <https://cgallup.github.io/garak-scans/hermes/garak-full-scan/garak.cb6be800-bca7-419c-a3fb-7fcedde07041.report.html>
 - **lite scan** (2026-08-25: `dan.Dan_11_0`) — <https://cgallup.github.io/garak-scans/hermes/garak-lite-scan/garak.8bcd484f-1fe8-4dbd-b4b9-79c5614c9a6a.report.html>
+
+**Nemotron full scan** (2026-10-12 to 2026-10-31): see the [folder README](nemotron/garak-full-scan/README.md#readable-reports) for the per-family report links.
 
 **Nemotron** (`promptinject` baseline, 2026-10-12):
 
@@ -122,3 +125,7 @@ decide whether each response counts as a hit.
 
 These logs contain adversarial jailbreak prompts and, in some cases, model outputs
 elicited by them. They are published for security-research and educational purposes.
+
+## License
+
+MIT, see [LICENSE](LICENSE). garak is Apache-2.0 (NVIDIA). Model outputs in the results come from the scanned models and are subject to their licenses.

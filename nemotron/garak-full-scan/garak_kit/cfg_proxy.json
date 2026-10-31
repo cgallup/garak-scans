@@ -1,0 +1,9 @@
+{
+  "openai": {
+    "OpenAICompatible": {
+      "uri": "http://localhost:8081/v1/",
+      "max_tokens": 4096,
+      "stop": ["<|garak_never_match|>"]
+    }
+  }
+}

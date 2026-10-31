@@ -35,6 +35,49 @@ raw <code>.jsonl</code> run logs and hit logs.</p>
       <span class="meta">&mdash; 40% hit rate</span></li>
 </ul>
 
+<h2>Nemotron-Nano-4B (4-bit) &mdash; full scan</h2>
+<p class="meta">Target: <code>openai.OpenAICompatible</code> behind a local proxy &middot; garak v0.17.0 &middot; 2026-10-12 to 2026-10-31 &middot;
+4083/4194 prompts scored, 24% overall hit rate. Low-coverage probes are flagged in the
+<a href="https://github.com/cgallup/garak-scans/tree/main/nemotron/garak-full-scan">folder README</a>. PromptInject reports are listed above.</p>
+<ul>
+  <li><a href="nemotron/garak-full-scan/ansiescape.report.html">ansiescape</a>
+      <span class="meta">&mdash; 51/106 hits (48%)</span></li>
+  <li><a href="nemotron/garak-full-scan/apikey.report.html">apikey</a>
+      <span class="meta">&mdash; 10/303 hits (3%)</span></li>
+  <li><a href="nemotron/garak-full-scan/badchars.report.html">badchars</a>
+      <span class="meta">&mdash; 9/256 hits (4%)</span></li>
+  <li><a href="nemotron/garak-full-scan/continuation.report.html">continuation</a>
+      <span class="meta">&mdash; 0/254 hits (0%)</span></li>
+  <li><a href="nemotron/garak-full-scan/dan.DanInTheWild.report.html">dan.DanInTheWild</a>
+      <span class="meta">&mdash; 55/385 hits (14%)</span></li>
+  <li><a href="nemotron/garak-full-scan/exploitation.report.html">exploitation</a>
+      <span class="meta">&mdash; 14/18 hits (78%)</span></li>
+  <li><a href="nemotron/garak-full-scan/goodside.report.html">goodside</a>
+      <span class="meta">&mdash; 3/32 hits (9%)</span></li>
+  <li><a href="nemotron/garak-full-scan/grandma.report.html">grandma</a>
+      <span class="meta">&mdash; 17/34 hits (50%)</span></li>
+  <li><a href="nemotron/garak-full-scan/leakreplay.report.html">leakreplay</a>
+      <span class="meta">&mdash; 14/650 hits (2%)</span></li>
+  <li><a href="nemotron/garak-full-scan/lmrc.report.html">lmrc</a>
+      <span class="meta">&mdash; 4/18 hits (22%)</span></li>
+  <li><a href="nemotron/garak-full-scan/malwaregen.report.html">malwaregen</a>
+      <span class="meta">&mdash; 75/201 hits (37%)</span></li>
+  <li><a href="nemotron/garak-full-scan/misleading.report.html">misleading</a>
+      <span class="meta">&mdash; 150/150 hits (100%)</span></li>
+  <li><a href="nemotron/garak-full-scan/phrasing.report.html">phrasing</a>
+      <span class="meta">&mdash; 107/512 hits (21%)</span></li>
+  <li><a href="nemotron/garak-full-scan/realtoxicityprompts.report.html">realtoxicityprompts</a>
+      <span class="meta">&mdash; 0/5 hits (0%)</span></li>
+  <li><a href="nemotron/garak-full-scan/sata.report.html">sata</a>
+      <span class="meta">&mdash; 13/16 hits (81%)</span></li>
+  <li><a href="nemotron/garak-full-scan/snowball.report.html">snowball</a>
+      <span class="meta">&mdash; 0/100 hits (0%)</span></li>
+  <li><a href="nemotron/garak-full-scan/suffix.report.html">suffix</a>
+      <span class="meta">&mdash; 0/26 hits (0%)</span></li>
+  <li><a href="nemotron/garak-full-scan/sysprompt_extraction.report.html">sysprompt_extraction</a>
+      <span class="meta">&mdash; 50/237 hits (21%)</span></li>
+</ul>
+
 <h2>Hermes</h2>
 <p class="meta">Target: <code>openai.OpenAICompatible</code> at
 <code>http://localhost:8000/v1/</code> &middot; garak v0.16.0</p>
