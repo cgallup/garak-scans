@@ -31,9 +31,9 @@ def build_redactions(extra):
     user = getpass.getuser()
     pairs = [(re.escape(home), "<HOME>"), (rf"/Users/{re.escape(user)}\b", "<HOME>"),
              (r"/Volumes/[^/\s\"']+/models", "<MODELS>"), (r"/private/tmp/claude-\d+/\S*", "<TMP>"),
-             (rf"\b{re.escape(user)}@[\w.-]+", "<USER>@<HOST>"), (r"\b[\w-]+\.local\b", "<HOST>")]
+             (rf"\b{re.escape(user)}@[\w.-]+", "<USER>@<HOST>")]
     pairs += [(re.escape(e), "<REDACTED>") for e in extra]
-    return [(re.compile(p, re.I if i >= 6 else 0), r) for i, (p, r) in enumerate(pairs)]
+    return [(re.compile(p, re.I if i >= 5 else 0), r) for i, (p, r) in enumerate(pairs)]
 
 
 REDACTIONS = []
